@@ -31,9 +31,10 @@ const RightSidebar = () => {
         dispatch(changeViewStudySpot(studySpot))
     }
 
-    const [markers, setMarkers] = useState([])
+    const [markers, setMarkers] = useState([]);
 
     useEffect(() => {
+        
         const newMarkers = []
         for (var i=0; i < studySpots.length; i++){
             const markerIndex = newMarkers.findIndex(el => el.location === studySpots[i].location)

@@ -216,7 +216,7 @@ const AddMarker = () => {
         axios.post("https://salty-temple-96430.herokuapp.com/studyspot/getAllStudySpots", {})
         .then(res => {
             const studyspots = res.data.studyspots
-       
+            console.log(studyspots)
             studyspots.forEach(studySpot => dispatch(createStudySpot(studySpot)))
         })
     }, [])

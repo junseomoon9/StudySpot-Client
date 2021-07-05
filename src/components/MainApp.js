@@ -7,7 +7,7 @@ import CircleLoader from "react-spinners/CircleLoader";
 
 const MainApp = () => {
 
-    let [loading, setLoading] = useState(false);
+    let [loading, setLoading] = useState(true);
     let [animation, setAnimation] = useState(false);
     let [color, setColor] = useState("#ffffff");
 

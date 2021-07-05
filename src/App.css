@@ -225,8 +225,10 @@
   width: 70%;
   height: 40px;
   border-radius: 0.5rem;
-  border: 3px solid rgb(186, 3, 241);
-  background-color: rgb(190, 54, 231);
+  /* border: 3px solid rgb(186, 3, 241);
+  background-color: rgb(190, 54, 231); */
+  background-color: rgb(83, 83, 83);
+  border: 3px solid rgb(63, 63, 63); 
   color: white;
 
 }
@@ -238,7 +240,7 @@
 
 .create-button:hover {
   cursor: pointer;
-  background-color: rgb(205, 103, 236);
+  background-color: rgb(126, 125, 125);
 }
 
 .location-container, .floor-container, .course-code-container, .seats-container, .description-container {
@@ -604,9 +606,10 @@
 }
 
 .left-sidebar-container::-webkit-scrollbar-thumb {
-  background-color: rgb(190, 54, 231);    /* color of the scroll thumb */
+  background-color: grey;
+
   border-radius: 15px;       /* roundness of the scroll thumb */
-  border: 3px solid rgb(186, 3, 241);  /* creates padding around scroll thumb */
+  border: 3px solid rgb(116, 116, 116);  /* creates padding around scroll thumb */
 }
 
 /* @media screen  and (max-width: 600px) {
